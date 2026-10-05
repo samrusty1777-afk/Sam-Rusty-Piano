@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sam Rusty Private Piano Delivery — professional piano delivery and moving services.">
+  <title>Sam Rusty | Private Piano Delivery</title>
+  <style>
+    :root { --blue:#174a9e; --ink:#111; --soft:#f5f6f8; --white:#fff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family: Arial, Helvetica, sans-serif; color:var(--ink); background:#fff; line-height:1.6; }
+    a { color:inherit; }
+    .topbar { background:#111; color:#fff; text-align:center; padding:9px 15px; font-size:14px; }
+    header { position:sticky; top:0; z-index:10; background:#fff; border-bottom:1px solid #e5e5e5; }
+    nav { max-width:1150px; margin:auto; padding:14px 22px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; font-weight:800; }
+    .brand img { width:58px; height:58px; object-fit:cover; border-radius:50%; }
+    .brand span { font-size:18px; letter-spacing:.4px; }
+    .links { display:flex; gap:22px; align-items:center; }
+    .links a { text-decoration:none; font-size:14px; font-weight:700; }
+    .btn { display:inline-block; background:var(--blue); color:#fff; text-decoration:none; padding:12px 19px; border-radius:8px; font-weight:800; }
+    .hero { min-height:650px; display:grid; place-items:center; padding:70px 22px; background:linear-gradient(135deg,#fff 0%,#f4f6f9 55%,#e7e9ed 100%); }
+    .hero-inner { max-width:1150px; width:100%; display:grid; grid-template-columns:1.05fr .95fr; gap:45px; align-items:center; }
+    .eyebrow { color:var(--blue); font-weight:900; text-transform:uppercase; letter-spacing:2px; font-size:13px; margin-bottom:12px; }
+    h1 { font-size:clamp(42px,6vw,72px); line-height:1.02; margin-bottom:20px; }
+    .hero p { max-width:650px; color:#444; font-size:19px; margin-bottom:28px; }
+    .actions { display:flex; gap:12px; flex-wrap:wrap; }
+    .outline { border:2px solid #111; color:#111; background:#fff; }
+    .logo-card { background:#111; border-radius:20px; padding:18px; box-shadow:0 25px 60px rgba(0,0,0,.16); }
+    .logo-card img { display:block; width:100%; border-radius:12px; }
+    section { padding:80px 22px; }
+    .container { max-width:1100px; margin:auto; }
+    .section-head { max-width:700px; margin-bottom:40px; }
+    h2 { font-size:40px; line-height:1.1; margin-bottom:12px; }
+    .muted { color:#666; }
+    .cards { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+    .card { padding:28px; border:1px solid #e6e6e6; border-radius:16px; background:#fff; box-shadow:0 8px 25px rgba(0,0,0,.05); }
+    .icon { font-size:30px; margin-bottom:12px; }
+    .card h3 { margin-bottom:8px; font-size:21px; }
+    .areas { background:#111; color:#fff; }
+    .areas .muted { color:#c8c8c8; }
+    .area-grid { display:flex; flex-wrap:wrap; gap:10px; margin-top:25px; }
+    .pill { border:1px solid #444; padding:10px 15px; border-radius:999px; }
+    .contact { background:var(--soft); }
+    .contact-box { background:#fff; border-radius:20px; padding:35px; display:grid; grid-template-columns:1fr 1fr; gap:35px; border:1px solid #e4e4e4; }
+    .contact-item { margin:16px 0; }
+    .contact-item strong { display:block; font-size:13px; text-transform:uppercase; letter-spacing:1px; color:#777; }
+    .contact-item a { font-size:21px; font-weight:800; color:var(--blue); text-decoration:none; }
+    footer { background:#080808; color:#bbb; text-align:center; padding:30px 20px; font-size:14px; }
+    @media (max-width:800px) {
+      .links a:not(.btn) { display:none; }
+      .hero-inner,.contact-box { grid-template-columns:1fr; }
+      .cards { grid-template-columns:1fr; }
+      section { padding:60px 18px; }
+      h2 { font-size:34px; }
+      .hero { min-height:auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Professional Piano Delivery • Careful Handling • Reliable Service</div>
+
+  <header>
+    <nav>
+      <a class="brand" href="#home">
+        <img src="sam-rusty-logo.png" alt="Sam Rusty Private Piano Delivery logo">
+        <span>Sam Rusty Piano Delivery</span>
+      </a>
+      <div class="links">
+        <a href="#services">Services</a>
+        <a href="#areas">Service Areas</a>
+        <a href="#contact">Contact</a>
+        <a class="btn" href="tel:7709840687">Call Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">Private Piano Delivery</div>
+          <h1>Move your piano with confidence.</h1>
+          <p>Professional piano delivery and moving services with careful handling from pickup to final placement.</p>
+          <div class="actions">
+            <a class="btn" href="tel:7709840687">Call (770) 984-0687</a>
+            <a class="btn outline" href="#contact">Request a Quote</a>
+          </div>
+        </div>
+        <div class="logo-card">
+          <img src="sam-rusty-logo.png" alt="Sam Rusty Private Piano Delivery">
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">What We Do</div>
+          <h2>Professional piano moving, made simple.</h2>
+          <p class="muted">Whether you're buying, selling, relocating, or transporting a piano, Sam Rusty Private Piano Delivery is ready to help.</p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="icon">🎹</div>
+            <h3>Piano Delivery</h3>
+            <p>Careful transportation of upright, baby grand, and other pianos from pickup to destination.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🚚</div>
+            <h3>Private Moving</h3>
+            <p>Direct, private delivery service designed around your schedule and your piano.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🛡️</div>
+            <h3>Careful Handling</h3>
+            <p>We treat every piano with attention throughout loading, transport, unloading, and placement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="areas" id="areas">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Service Areas</div>
+          <h2>Serving customers across the region.</h2>
+          <p class="muted">Contact us with your pickup and delivery locations for availability and a personalized quote.</p>
+        </div>
+        <div class="area-grid">
+          <div class="pill">Charlotte, NC</div>
+          <div class="pill">Charlottesville, VA</div>
+          <div class="pill">Knoxville, TN</div>
+          <div class="pill">Virginia</div>
+          <div class="pill">North Carolina</div>
+          <div class="pill">Tennessee</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-box">
+          <div>
+            <div class="eyebrow">Get In Touch</div>
+            <h2>Request your piano delivery quote.</h2>
+            <p class="muted">Call or email with the piano type, pickup location, delivery location, and any stairs or special access details.</p>
+          </div>
+          <div>
+            <div class="contact-item">
+              <strong>Phone</strong>
+              <a href="tel:7709840687">(770) 984-0687</a>
+            </div>
+            <div class="contact-item">
+              <strong>Phone</strong>
+              <a href="tel:8288230192">828-823-0192</a>
+            </div>
+            <div class="contact-item">
+              <strong>Email</strong>
+              <a href="mailto:Samrusty1777@gmail.com">Samrusty1777@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Sam Rusty Private Piano Delivery. All rights reserved.
+  </footer>
+</body>
+</html>
